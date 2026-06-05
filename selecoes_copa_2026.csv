@@ -1,0 +1,49 @@
+nome_pais,sigla,grupo
+Mexico,MEX,Group A
+South Africa,RSA,Group A
+South Korea,KOR,Group A
+Czech Republic,CZE,Group A
+Canada,CAN,Group B
+Bosnia and Herzegovina,BIH,Group B
+Qatar,QAT,Group B
+Switzerland,SUI,Group B
+Brazil,BRA,Group C
+Morocco,MAR,Group C
+Haiti,HAI,Group C
+Scotland,SCO,Group C
+United States,USA,Group D
+Paraguay,PAR,Group D
+Australia,AUS,Group D
+Turkey,TUR,Group D
+Germany,GER,Group E
+Curacao,CUW,Group E
+Ivory Coast,CIV,Group E
+Ecuador,ECU,Group E
+Netherlands,NED,Group F
+Japan,JPN,Group F
+Sweden,SWE,Group F
+Tunisia,TUN,Group F
+Belgium,BEL,Group G
+Egypt,EGY,Group G
+Iran,IRN,Group G
+New Zealand,NZL,Group G
+Spain,ESP,Group H
+Cape Verde,CPV,Group H
+Saudi Arabia,KSA,Group H
+Uruguay,URU,Group H
+France,FRA,Group I
+Senegal,SEN,Group I
+Iraq,IRQ,Group I
+Norway,NOR,Group I
+Argentina,ARG,Group J
+Algeria,ALG,Group J
+Austria,AUT,Group J
+Jordan,JOR,Group J
+Portugal,POR,Group K
+DR Congo,COD,Group K
+Uzbekistan,UZB,Group K
+Colombia,COL,Group K
+England,ENG,Group L
+Croatia,CRO,Group L
+Ghana,GHA,Group L
+Panama,PAN,Group L
