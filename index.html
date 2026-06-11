@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador Copa do Mundo 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div class="hero__copy">
+        <span class="badge">Baseado no backend Python</span>
+        <h1>Simulador Copa do Mundo 2026</h1>
+        <p>
+          Interface estática inspirada nas entidades do projeto: seleção,
+          grupos, partidas, classificação e mata-mata.
+        </p>
+
+        <div class="hero__stats">
+          <article class="stat">
+            <strong>3</strong>
+            <span>camadas principais</span>
+          </article>
+          <article class="stat">
+            <strong>4</strong>
+            <span>seleções por grupo</span>
+          </article>
+          <article class="stat">
+            <strong>1</strong>
+            <span>caminho até o título</span>
+          </article>
+        </div>
+      </div>
+
+      <aside class="hero__panel">
+        <h2>Fluxo do simulador</h2>
+        <ol class="steps">
+          <li>Ler o CSV e instanciar as seleções.</li>
+          <li>Montar os grupos e simular as partidas.</li>
+          <li>Classificar por pontos, saldo e gols.</li>
+          <li>Avançar para o mata-mata até a final.</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <span class="badge badge--soft">Entidades do backend</span>
+        <h2>Estrutura do domínio</h2>
+      </div>
+
+      <div class="cards cards--four">
+        <article class="card">
+          <h3>Selecao</h3>
+          <p>Nome do país, sigla, grupo e estatísticas como pontos e saldo.</p>
+        </article>
+        <article class="card">
+          <h3>Grupo</h3>
+          <p>Reúne 4 seleções, faz o round-robin e ordena a classificação.</p>
+        </article>
+        <article class="card">
+          <h3>Partida</h3>
+          <p>Simula gols para fase de grupos e define vencedores no mata-mata.</p>
+        </article>
+        <article class="card">
+          <h3>Exceções</h3>
+          <p>Valida dados do CSV, nome inválido e arquivo ausente.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section__header">
+        <span class="badge badge--soft">Dados do CSV</span>
+        <h2>Grupos de exemplo</h2>
+      </div>
+
+      <div class="cards cards--three">
+        <article class="group-card">
+          <div class="group-card__head">
+            <span>Grupo A</span>
+            <strong>4 seleções</strong>
+          </div>
+          <ul>
+            <li>Mexico</li>
+            <li>South Africa</li>
+            <li>South Korea</li>
+            <li>Czech Republic</li>
+          </ul>
+        </article>
+
+        <article class="group-card">
+          <div class="group-card__head">
+            <span>Grupo B</span>
+            <strong>4 seleções</strong>
+          </div>
+          <ul>
+            <li>Canada</li>
+            <li>Bosnia and Herzegovina</li>
+            <li>Qatar</li>
+            <li>Switzerland</li>
+          </ul>
+        </article>
+
+        <article class="group-card">
+          <div class="group-card__head">
+            <span>Grupo C</span>
+            <strong>4 seleções</strong>
+          </div>
+          <ul>
+            <li>Brazil</li>
+            <li>Morocco</li>
+            <li>Haiti</li>
+            <li>Scotland</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--split">
+      <article class="panel">
+        <div class="section__header">
+          <span class="badge badge--soft">Classificação</span>
+          <h2>Exemplo do Grupo A</h2>
+        </div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Seleção</th>
+              <th>Pts</th>
+              <th>SG</th>
+              <th>GP</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Mexico</td>
+              <td>7</td>
+              <td>+4</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>South Korea</td>
+              <td>5</td>
+              <td>+1</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Czech Republic</td>
+              <td>3</td>
+              <td>-1</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>South Africa</td>
+              <td>1</td>
+              <td>-4</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <article class="panel">
+        <div class="section__header">
+          <span class="badge badge--soft">Mata-mata</span>
+          <h2>Do 16-avos à final</h2>
+        </div>
+
+        <div class="bracket">
+          <div class="bracket__round">
+            <h3>16-avos</h3>
+            <p>16 seleções classificadas</p>
+          </div>
+          <div class="bracket__round">
+            <h3>Oitavas</h3>
+            <p>8 vencedores avançam</p>
+          </div>
+          <div class="bracket__round">
+            <h3>Quartas</h3>
+            <p>4 seleções seguem vivas</p>
+          </div>
+          <div class="bracket__round">
+            <h3>Semifinal</h3>
+            <p>Disputa de pênaltis se necessário</p>
+          </div>
+          <div class="bracket__round">
+            <h3>Final</h3>
+            <p>Campeão definido em uma partida</p>
+          </div>
+        </div>
+      </article>
+    </section>

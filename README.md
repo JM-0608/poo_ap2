@@ -53,3 +53,29 @@ python main.py
 ```
 
 O console exibirá todo o andamento do campeonato, desde a fase de grupos, classificação detalhada, até as emocionantes disputas de pênaltis nas fases finais, coroando o grande campeão ao final da execução.
+
+## 🎨 Frontend baseado no backend
+
+Para abrir a interface visual:
+
+1. Abra o arquivo `index.html` no navegador.
+2. O CSS está em `styles.css`.
+3. A tela é estática, mas foi desenhada para representar as entidades e o fluxo do backend em Python.
+
+## Git: branch `dev` e merge em `main`
+
+```bash
+git checkout -b dev
+git add index.html styles.css README.md
+git commit -m "Refactor frontend to match backend"
+git push -u origin dev
+```
+
+Depois, crie um Pull Request de `dev` para `main` no GitHub e finalize com merge. Se preferir pela linha de comando:
+
+```bash
+git checkout main
+git pull origin main
+git merge dev
+git push origin main
+```
