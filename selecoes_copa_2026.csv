@@ -1,49 +1,49 @@
-nome_pais,sigla,grupo
-Mexico,MEX,Group A
-South Africa,RSA,Group A
-South Korea,KOR,Group A
-Czech Republic,CZE,Group A
-Canada,CAN,Group B
-Bosnia and Herzegovina,BIH,Group B
-Qatar,QAT,Group B
-Switzerland,SUI,Group B
-Brazil,BRA,Group C
-Morocco,MAR,Group C
-Haiti,HAI,Group C
-Scotland,SCO,Group C
-United States,USA,Group D
-Paraguay,PAR,Group D
-Australia,AUS,Group D
-Turkey,TUR,Group D
-Germany,GER,Group E
-Curacao,CUW,Group E
-Ivory Coast,CIV,Group E
-Ecuador,ECU,Group E
-Netherlands,NED,Group F
-Japan,JPN,Group F
-Sweden,SWE,Group F
-Tunisia,TUN,Group F
-Belgium,BEL,Group G
-Egypt,EGY,Group G
-Iran,IRN,Group G
-New Zealand,NZL,Group G
-Spain,ESP,Group H
-Cape Verde,CPV,Group H
-Saudi Arabia,KSA,Group H
-Uruguay,URU,Group H
-France,FRA,Group I
-Senegal,SEN,Group I
-Iraq,IRQ,Group I
-Norway,NOR,Group I
-Argentina,ARG,Group J
-Algeria,ALG,Group J
-Austria,AUT,Group J
-Jordan,JOR,Group J
-Portugal,POR,Group K
-DR Congo,COD,Group K
-Uzbekistan,UZB,Group K
-Colombia,COL,Group K
-England,ENG,Group L
-Croatia,CRO,Group L
-Ghana,GHA,Group L
-Panama,PAN,Group L
+nome_pais,sigla,grupo,forca
+Mexico,MEX,Group A,3.0
+South Africa,RSA,Group A,2.0
+South Korea,KOR,Group A,2.5
+Czech Republic,CZE,Group A,2.5
+Canada,CAN,Group B,3.0
+Bosnia and Herzegovina,BIH,Group B,2.0
+Qatar,QAT,Group B,1.5
+Switzerland,SUI,Group B,3.5
+Brazil,BRA,Group C,5.0
+Morocco,MAR,Group C,3.5
+Haiti,HAI,Group C,1.0
+Scotland,SCO,Group C,2.5
+United States,USA,Group D,3.0
+Paraguay,PAR,Group D,2.5
+Australia,AUS,Group D,2.5
+Turkey,TUR,Group D,3.0
+Germany,GER,Group E,4.5
+Curacao,CUW,Group E,1.0
+Ivory Coast,CIV,Group E,2.5
+Ecuador,ECU,Group E,2.5
+Netherlands,NED,Group F,4.0
+Japan,JPN,Group F,3.5
+Sweden,SWE,Group F,3.0
+Tunisia,TUN,Group F,2.0
+Belgium,BEL,Group G,3.5
+Egypt,EGY,Group G,2.0
+Iran,IRN,Group G,2.5
+New Zealand,NZL,Group G,1.5
+Spain,ESP,Group H,4.5
+Cape Verde,CPV,Group H,1.5
+Saudi Arabia,KSA,Group H,2.0
+Uruguay,URU,Group H,3.5
+France,FRA,Group I,5.0
+Senegal,SEN,Group I,3.0
+Iraq,IRQ,Group I,1.5
+Norway,NOR,Group I,2.5
+Argentina,ARG,Group J,5.0
+Algeria,ALG,Group J,2.0
+Austria,AUT,Group J,3.0
+Jordan,JOR,Group J,1.5
+Portugal,POR,Group K,4.5
+DR Congo,COD,Group K,2.0
+Uzbekistan,UZB,Group K,1.5
+Colombia,COL,Group K,3.0
+England,ENG,Group L,4.5
+Croatia,CRO,Group L,3.5
+Ghana,GHA,Group L,2.0
+Panama,PAN,Group L,2.0
